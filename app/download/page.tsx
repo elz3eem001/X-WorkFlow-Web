@@ -3,13 +3,13 @@ import { Footer } from "@/components/footer"
 import { Button } from "@/components/ui/button"
 import { Download, Monitor, CheckCircle2 } from "lucide-react"
 
-const DOWNLOAD_URL = "https://github.com/MrX-619/Mr-x/releases/download/v1.0.0/X-WorkFlow-Setup-1.0.0.exe"
+const DOWNLOAD_URL = "https://github.com/MrX-619/Mr-x/releases/download/v1.0.1/X-WorkFlow-Setup-1.0.1.exe"
 
 const requirements = [
   "نظام التشغيل: Windows 10 أو أحدث",
   "المعالج: Intel Core i3 أو ما يعادله",
   "الذاكرة: 4 جيجابايت RAM",
-  "مساحة التخزين: 200 ميجابايت",
+  "مساحة التخزين: 350 ميجابايت",
 ]
 
 export default function DownloadPage() {
@@ -37,7 +37,7 @@ export default function DownloadPage() {
             <p className="text-muted-foreground mb-8">الإصدار الأخير متوافق مع Windows 10/11</p>
 
             <Button size="lg" className="gap-2 mb-8" asChild>
-              <a href={DOWNLOAD_URL} download="X-WorkFlow-Setup-1.0.0.exe">
+              <a href={DOWNLOAD_URL} download="X-WorkFlow-Setup-1.0.1.exe">
                 <Download className="h-5 w-5" />
                 تحميل للـ Windows
               </a>

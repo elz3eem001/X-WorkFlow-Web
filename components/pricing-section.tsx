@@ -34,6 +34,12 @@ export function PricingSection() {
               السعر الاساسي: 500 جنيه
             </p>
 
+            <div className="mt-6 mx-auto inline-flex items-center gap-2 rounded-full border border-accent/40 bg-accent/10 px-4 py-2 text-sm font-semibold text-accent">
+              <span>خصم اضافي للطلاب</span>
+              <span className="text-muted-foreground">|</span>
+              <span>اشتراك مدي الحياة ب 200 جنيه بدل 500 جنيه</span>
+            </div>
+
             <ul className="mt-10 space-y-4 text-right">
               <li className="flex items-center gap-3 text-base">
                 <Check className="h-5 w-5 text-accent flex-shrink-0" />

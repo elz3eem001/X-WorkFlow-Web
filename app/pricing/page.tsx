@@ -38,9 +38,15 @@ export default function PricingPage() {
               <span className="text-xl text-muted-foreground">جنيه مصري</span>
             </div>
             
-            <p className="text-muted-foreground mb-8">
+            <p className="text-muted-foreground mb-4">
               السعر الاساسي: 500 جنيه
             </p>
+
+            <div className="mb-8 mx-auto inline-flex items-center gap-2 rounded-full border border-accent/40 bg-accent/10 px-4 py-2 text-sm font-semibold text-accent">
+              <span>خصم اضافي للطلاب</span>
+              <span className="text-muted-foreground">|</span>
+              <span>اشتراك مدي الحياة ب 200 جنيه بدل 500 جنيه</span>
+            </div>
 
             <div className="grid grid-cols-1 sm:grid-cols-2 gap-4 max-w-md mx-auto mb-10">
               {features.map((feature, index) => (
