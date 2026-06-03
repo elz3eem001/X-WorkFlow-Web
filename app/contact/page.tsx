@@ -3,7 +3,7 @@
 import { Navbar } from "@/components/navbar"
 import { Footer } from "@/components/footer"
 import { Button } from "@/components/ui/button"
-import { Mail, MessageCircle, Send, CheckCircle2 } from "lucide-react"
+import { Mail, MessageCircle, Send, CheckCircle2, Facebook } from "lucide-react"
 import { useState } from "react"
 
 export default function ContactPage() {
@@ -32,7 +32,7 @@ export default function ContactPage() {
             <h1 className="text-4xl sm:text-5xl font-bold tracking-tight mb-4">تواصل معنا</h1>
             <p className="text-lg text-muted-foreground max-w-2xl mx-auto">نحن هنا لمساعدتك. تواصل معنا في أي وقت.</p>
           </div>
-          <div className="grid grid-cols-1 md:grid-cols-2 gap-8 mb-16">
+          <div className="grid grid-cols-1 md:grid-cols-3 gap-8 mb-16">
             <a href="mailto:elz3eemx@gmail.com" className="rounded-xl border border-border bg-card p-8 text-center hover:border-accent/50 transition-colors">
               <div className="flex h-14 w-14 items-center justify-center rounded-lg bg-accent/10 mx-auto mb-6">
                 <Mail className="h-7 w-7 text-accent" />
@@ -48,6 +48,14 @@ export default function ContactPage() {
               <h2 className="text-xl font-bold mb-3">الدعم الفني (واتساب)</h2>
               <p className="text-muted-foreground mb-4">للاستفسارات التقنية والمساعدة</p>
               <p className="text-green-500 font-mono text-sm" dir="ltr">+20 10 1567 5272</p>
+            </a>
+            <a href="https://www.facebook.com/profile.php?id=61590615478422" target="_blank" rel="noopener noreferrer" className="rounded-xl border border-border bg-card p-8 text-center hover:border-accent/50 transition-colors">
+              <div className="flex h-14 w-14 items-center justify-center rounded-lg bg-blue-500/10 mx-auto mb-6">
+                <Facebook className="h-7 w-7 text-blue-600" />
+              </div>
+              <h2 className="text-xl font-bold mb-3">تابعنا علي فيسبوك</h2>
+              <p className="text-muted-foreground mb-4">انضم إلينا وتابع آخر الأخبار</p>
+              <p className="text-blue-600 font-mono text-sm">X-WorkFlow</p>
             </a>
           </div>
           <div className="rounded-xl border border-border bg-card p-8">
